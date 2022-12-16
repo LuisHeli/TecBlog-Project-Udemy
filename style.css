@@ -11,9 +11,30 @@ body {
 header {
     background-color: #FFC300;
     color: white;
-    height: 160px;
+    height: 140px;
 }
 
+/* Cartão independente da página */
+
+.card-indenpendet-view {
+    position: absolute;
+    background-color: #393B3E;
+    left: 1200px;
+    height: 80px;
+    bottom: 30px;
+    width: 295px;
+}
+.h2-card {
+    font-size: 20px;
+    color: yellow;
+    padding-left: 10px;
+}
+.p-card {
+    position: relative;
+    bottom: 15px;
+    color: white;
+    padding-left: 10px;
+}
 /*h1 texto principal header */
 
 .display-h1-header {
@@ -99,11 +120,28 @@ header {
     position: relative;
     bottom: 15px;
 }
-.p-2-sec-div2 {
+.p-2-sec-div-2 {
+    position: relative;
+    bottom: 25px;
+}
+.a-2-sec-div2 {
     color: #FFC300;
-    margin-bottom: 35px;
+    position: relative;
+    bottom: 12px;
+    text-decoration: none;
 }
 .hr-sec-1-div-2 {
     position: relative;
-    bottom: 5px;
+    bottom: 20px;
+}
+.a-3-sec-div-2 {
+    color: #FFC300;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.span-a-3-div-2 {
+    display: block;
+    position: relative;
+    bottom: 16px;
 }
