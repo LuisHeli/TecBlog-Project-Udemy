@@ -18,11 +18,12 @@ header {
 
 .card-indenpendet-view {
     position: absolute;
+    position: fixed;
     background-color: #393B3E;
-    left: 1200px;
+    left: 1180px;
     height: 80px;
-    bottom: 30px;
-    width: 295px;
+    bottom: 40px;
+    width: 300px;
 }
 .h2-card {
     font-size: 20px;
@@ -144,4 +145,26 @@ header {
     display: block;
     position: relative;
     bottom: 16px;
+}
+.div-sec-2 {
+        display: inline;
+        position: relative;
+        left: 200px;
+}
+.display-a-sec-2 {
+    position: relative;
+    top: 11px;
+}
+footer {
+
+}
+.div-footer {
+    display: inline;
+    background-color: #d7d7d7;
+    width: 1000px;
+    text-align: center;
+}
+.h1-div-footer {
+    text-align: center;
+    font-size: 20px;
 }
