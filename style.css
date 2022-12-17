@@ -25,12 +25,12 @@ header {
     bottom: 40px;
     width: 250px;
 }
-.h2-card {
+.card-indenpendet-view h2 {
     font-size: 20px;
     color: yellow;
     padding-left: 10px;
 }
-.p-card {
+.card-indenpendet-view p{
     position: relative;
     bottom: 15px;
     color: white;
@@ -55,7 +55,7 @@ header {
 
 /* Texto menu */
 
-.a-header {
+.div-menu a {
     list-style: none;
     padding: 10px;
     font-size: 1,2147em;    
@@ -63,7 +63,7 @@ header {
     text-decoration: none;
     color: white;
 }
-.a-header:hover {
+.div-menu a:hover {
     background-color: white;
     color: #FFC300;
     transition: 300ms;
