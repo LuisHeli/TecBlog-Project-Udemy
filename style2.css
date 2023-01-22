@@ -7,12 +7,25 @@
 }
 header {
     background-color: #FFC300;
-    height: 150px;
+    height: 180px;
 }
 #div-h1-header {
+    position: relative;
     font-size: 20px;
     font-weight: 700;
+    top: 23px;
+    text-align: center;
 }
 #span-blog-word {
     color: white;
+}
+.div-cabecalho {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: 30px;
+}
+.a-cabecalho{
+    font-size: 20px;
+    font-weight: 600;
 }
