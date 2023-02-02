@@ -1,61 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 header {
+    width: 100%;
+    height: 140px;
     background-color: #FFC300;
-    height: 180px;
 }
-#div-h1-header {
-    position: relative;
 
-    font-weight: 700;
-    top: 23px;
+/* TecBlog Título */
+
+header h1 {
+    font-size: 2.2em;
+}
+.display-h1{
+    position: relative;
     text-align: center;
+    top: 20px;
 }
-#h1-header {
-    font-size: 2.3em;
-}
-#span-blog-word {
+.color-h1 {
     color: white;
 }
+
+/* Cabeçalho */
+
 .div-cabecalho {
     position: relative;
-    top: 45px;
+    top: 38px;
     text-align: center;
 }
 .div-cabecalho a {
-    font-size: 1.2em;
-    font-weight: 600;
-    padding: 10px;
     color: white;
+    padding: 11px;
+    font-weight: 600;
+    font-size: 1em;
     text-decoration: none;
 }
 .div-cabecalho a:hover {
     color: #FFC300;
     background-color: white;
-    transition: 500ms;
+    transition: 300ms;
 }
 
-/* Card */
+/* Cartão Visita */
 
-.card1 {
-    position: fixed;
+.div-card {
+    position: absolute;
     background-color: #393B3E;
     width: 240px;
-    height: 60px;
-    padding: 10px;
+    height: 70px;
+    padding: 5px;
     left: 1240px;
     top: 600px;
 }
-.card1 h1 {
-    font-size: 1.6em;
-    color: #FFF328;
+.div-card h2 {
+    color: yellow;
+    font-size: 1.3em;
+    padding-top: 7px;
+    padding-left: 8px;
 }
-.card1 p {
-    font-size: 1em;
+.div-card p {
     color: white;
+    padding-left: 8px;
 }
